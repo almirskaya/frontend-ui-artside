@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
-	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<script src="http://localhost:35729/livereload.js"></script>
 </head>
@@ -14,14 +14,12 @@
 			<a class="logo" href="index.html" >
 				<img src="images/logo.png" alt="" width="102px" height="63px">
 			</a>
-			<div class="phonenumber">
-				<a href="tel:+380487005462?call">
-					<span>+38(048)</span>	
-					<span>700 54 62</span>
-				</a>
-			</div>
+			<a class="phonenumber"href="tel:+380487005462">
+				<div>+38(048)</div>	
+				<div>700 54 62</div>
+			</a>
 		</header>
-		<aside class="sidebar">
+		<aside class="left-sidebar">
 			<nav class="mainmenu">
 				<ul class="menu-list">
 					<li class="menu-item">
@@ -42,49 +40,82 @@
 				<p>В нашей компании работают молодые и прогрессивные люди, которые любят свою работу – поэтому результаты всегда максимальны, а сроки – минимальны. Мы постоянно обучаем наших сотрудником новейшим интернет-технологиям, достижениям и опыту крупных мировых корпораций-коллег, поэтому их идеи всегда свежи и креативны.  В основе нашей работы заложены принципы открытости, уважения и понимания. И уж если наши люди экономят Ваш бюджет – то экономят как свой, а разрабатывая сайт – они создают его, как если бы он был их собственный.</p> 
 				<p>Каждый созданный проект для нас – это заново прожитая жизнь, полная вдохновения. А за этим всегда следует реинкарнация – возможно, следующим Делом Жизни для нас станете именно Вы.</p>
 			</section>
-			<div class="staff">
-				<h2>Менеджмент</h2>
-				<ul>
-					<li>
-						<img src="gallery/Man-Booker-Prize-judges-p-011.jpg" alt="Сергей Кондратьев" width="78px" height="78px">
-						<span>Сергей Кондратьев</span>	
-					</li>
-				</ul>
-			</div>
-			<div class="staff">
-				<h2>Дизайн</h2>
-				<ul>
-					<li>
-						<img src="gallery/superman_man_of_steel_star_henry_cavill_1207744.jpg" alt="Алексей Чепалыга" width="78px" height="78px">
-						<span>Алексей Чепалыга</span>	
-					</li>
-					<li>
-						<img src="gallery/Man-Booker-Prize-judges-p-011.jpg" alt="Дмитрий Иванов" width="78px" height="78px">
-						<span>Дмитрий Иванов</span>	
-					</li>
-					<li>
-						<img src="gallery/tumour-man-3_1510528a.jpg" alt="Олег Рогачёв" width="78px" height="78px">
-						<span>Олег Рогачёв</span>	
-					</li>
-				</ul>
-			</div>
-			<div class="staff">
-				<h2>Васьки</h2>
-				<ul>
-					<li>
-						<img src="gallery/tumour-man-3_1510528a.jpg" alt="Алексей Демьяненко" width="78px" height="78px">
-						<span>Алексей Демьяненко</span>	
-					</li>
-					<li>
-						<img src="gallery/superman_man_of_steel_star_henry_cavill_1207744.jpg" alt="Константин Генчевский" width="78px" height="78px">
-						<span>Константин Генчевский</span>	
-					</li>
-					<li>
-						<img src="gallery/Man-Booker-Prize-judges-p-011.jpg" alt="Анатолий Непомню" width="78px" height="78px">
-						<span>Анатолий Непомню</span>	
-					</li>
-				</ul>
-			</div>
+			<section id="staff">
+				<div class="staff">
+					<h2>Менеджмент</h2>
+					<ul>
+						<li>
+							<div class="photo">
+								<img src="gallery/Man-Booker-Prize-judges-p-011.jpg" alt="Сергей Кондратьев" >
+							</div>	
+							<div class="description">Сергей Кондратьев</div>
+							
+							
+						</li>
+					</ul>
+				</div>
+				<div class="staff">
+					<h2>Дизайн</h2>
+					<ul>
+						<li>
+							<div class="photo">
+								<img src="gallery/superman_man_of_steel_star_henry_cavill_1207744.jpg" alt="Алексей Чепалыга" >
+								
+							</div>
+							<div class="description">Алексей Чепалыга</div>
+							
+						</li>
+						<li>
+							<div class="photo">
+								<img src="gallery/Man-Booker-Prize-judges-p-011.jpg" alt="Дмитрий Иванов" >
+							</div>
+							<div class="description">Дмитрий Иванов</div>
+							
+							
+						</li>
+						<li>
+							<div class="photo">
+								<img src="gallery/tumour-man-3_1510528a.jpg" alt="Олег Рогачёв" >
+							</div>	
+							<div class="description">Олег Рогачёв</div>
+							
+							
+						</li>
+					</ul>
+				</div>
+				<div class="staff">
+					<h2>Васьки</h2>
+					<ul>
+						<li>
+							<div class="photo">
+								<img src="gallery/tumour-man-3_1510528a.jpg" alt="Алексей Демьяненко" >
+							</div>	
+							<div class="description">Алексей Демьяненко</div>
+							
+							
+						</li>
+						<li>
+							<div class="photo">
+								<img src="gallery/superman_man_of_steel_star_henry_cavill_1207744.jpg" alt="Константин Генчевский" >
+							</div>
+							<div class="description">
+							Константин Генчевский Константин Генчевский Константин Генчевский Константин Генчевский Константин Генчевский Константин Генчевский
+							Константин Генчевский Константин Генчевский Константин Генчевский
+
+							
+							
+						</li>
+						<li>
+							<div class="photo">
+								<img src="gallery/Man-Booker-Prize-judges-p-011.jpg" alt="Анатолий Непомню" >
+							</div>	
+							<div class="description">Анатолий Непомню</div>
+							
+								
+						</li>
+					</ul>
+				</div>
+			</section>
 			<article class="article">
 				<h2>Услуги</h2>
 				<p><strong>Web дизайн</strong> – это мощный, современный маркетинговый инструмент, который облегчает такие сложные стратегические задачи компании, как поиск потенциальных клиентов, выход на новые рынки, комплексная реклама. Правильно разработанный сайт приносит Вашей компании весомый процент новых клиентов при заметно сниженных затратах.</p>
@@ -96,10 +127,8 @@
 	</div>
 	<footer class="footer">
 		<div>artsidegroup.com 
+		<a href="#">вакансии</a>
 		<br>&copy; 2006-2010
-		</div>
-		<div>
-			<a href="#">вакансии</a>
 		</div>
 	</footer>
 </body>

@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%
+}
+
+body{
+	margin: 0;
+	background: url('../../psd/bg-body.jpg');
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	color: #363636;
+	width: 100%;
+	height: 100%;
+	cursor: default;
+	
+}
+
+@font-face {
+    font-family: "dincyr";
+    src: url("../fonts/DIN LightAlternate Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+  
+a{
+	text-decoration: none;
+	color: #363636;
+}
+
+p{
+	margin-bottom: 24px;
+}
+
+h1{
+	margin-bottom: 19px;
+	font-family: dincyr;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+
+h2{
+	font-family: dincyr;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+.header{
+	position: relative;
+	height: 200px;
+}
+
+.header .logo{
+	position: absolute;
+	left: 0px;
+	bottom: 95px;
+}
+
+.header .logo img{
+	display: block;
+	width: 102px;
+	height: auto;
+}
+
+.header .phonenumber {
+	position: absolute;
+	right: 0px;
+	bottom: 95px;
+	color: #707070;
+	font-family: dincyr;
+	font-weight: 300;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.header .phonenumber div:last-of-type{
+	font-size: 30px;
+}
+
+.left-sidebar {
+	width: 253px;
+	float: left;
+	font-family: dincyr;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 38px;
+	text-transform: uppercase;
+
+}
+.left-sidebar a {
+  -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.left-sidebar a:active{
+    color: #fff;
+    background-color: rgb(112,112,112); 
+}
+
+.left-sidebar a:hover{
+    color: #fff;
+    background-color: rgb(112,112,112); 
+   -o-transform: scaleY(1.2);
+   -ms-transform: scaleY(1.2);
+   -moz-transform: scaleY(1.2);
+   -webkit-transform: scaleY(1.2);
+   transform: scaleY(1.2);
+}
+
+.mainmenu .menu-list .menu-item{
+	overflow: hidden;
+}
+
+.content{
+	margin-left: 253px;
+	width: auto;
+}
+
+.content .promo{
+	margin-bottom: 44px;
+}
+
+.content #staff{
+	display: block;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.content .staff {
+	display: inline-block;
+	margin-left: -1px;
+	margin-bottom: 46px;
+	width: 33%;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.content .staff li{
+	display: block;
+	margin-bottom: 18px;
+	white-space: nowrap;
+	height: 100%;
+
+}
+
+.content .staff img{
+	width: 78px;
+	margin: auto;
+	vertical-align: middle;	
+}
+
+
+.content .staff .photo{
+	display: inline-block;
+	background-color: #bcbcbc;
+	width: 78px;
+	height: 78px;
+	margin-right: 10px;
+	vertical-align: top;
+	overflow: hidden;
+	line-height: 78px;
+}
+
+.content .staff .description{
+	display: inline-block;
+	width: auto;
+	white-space: normal;
+}
+
+.content .article{
+	margin-bottom: 56px;
+}
+
+.footer {
+	margin: 0 auto;
+	width: 1000px;
+	border-top: 1px solid #adadad;
+	padding:40px 0;
+}
+
+.footer div{
+	display: inline-block;
+	color: #707070;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+.footer a{
+	margin-left: 21px;
+	color: #707070;
+	
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
